@@ -1,4 +1,6 @@
 import React from 'react'
+import { Button } from './Button'
+import './Footer.css'
 
 const Footer = () => {
     return (
@@ -13,6 +15,9 @@ const Footer = () => {
                 <div className="input-areas">
                     <form>
                         <input type="email" name="email" className="footer-input" placeholder="enter email"/>
+                        <Button buttonStyle="btn--outline">
+                            subcribe
+                        </Button>
                     </form>
                 </div>
             </section>
